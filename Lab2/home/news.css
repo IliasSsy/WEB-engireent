@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Golos Text', Arial, sans-serif;
+}
+
+.page__buttons img{
+    display: block;
+    width: 40px;
+    height: 40px;
+}
+
+.post__user .user__avatar{
+    width: 40px;
+    height: 40px;
+}
+
+.post .post__count {
+    width: 44px;
+    height: 24px;
+    border-radius: 20px;
+    background-color: #222222;
+    opacity: 0.5;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+    color: white;
+    text-align: center;
+}
+
+
+.post__user p{
+    display: inline;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+    color: #222222
+}
+
+.user_redact {
+    width: 24px;
+    height: 24px;
+}
+
+.post__user {
+    width: 474px;
+    height: 52px;
+}
+
+.post {
+    width: 700px;
+}
+
+.post .user__content {
+    display: block;
+    width: 474px;
+    height: 474px;
+}
+
+.post .post__switch-left,  .post__switch-right {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+    color: black;
+    text-align: center;
+}
+
+.post .post__switch-left{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.post .post__switch-right {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+.post .post__reaction {
+    display: inline;
+    width: 16px;
+    height: 16px;
+}
+
+.post__containter-reactions {
+    width: 68px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: rgba(34, 34, 34, 0.05)
+}
+
+.post__comment {
+    width: 474px;
+    height: 37px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+}
+
+.post__add {
+    width: 28px;
+    height: 18px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+    color: rgba(128, 128, 128, 1);
+    display: block;
+}
+
+.post__timelaps {
+    width: 82px;
+    height: 18px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+    color: rgba(34, 34, 34, 0.5);
+    display: block;
+}
+
+.post .user__photo {
+    width: 474px;
+    height: 200px;
+    object-fit: cover;
+}
+
