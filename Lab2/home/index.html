@@ -3,24 +3,35 @@
     <head>
         <meta charset="UTF-8">
         <link href="news.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@wikiline/webfont-golos-ui@latest/css/all.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+        <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap" rel="stylesheet">
         <title>SM | Home</title>
     </head>
     <body>
     <div class="page">
-        <div class="page__buttons">
-            <img src="img/home.png" alt="news">
-            <img src="img/person.png" alt="profile">
-            <img src="img/plus.png" alt="add new news">
-        </div>
+        <nav class="page__navigation">
+            <a href="/" class="field__show-password">
+                <img src="img/home.png" alt="news">
+            </a>
+            <a href="/" class="field__show-password">
+                <img src="img/person.png" alt="profile">
+            </a>
+            <a href="/" class="field__show-password">
+                <img src="img/plus.png" alt="add new news">
+            </a>
+        </nav>
         <div class="post">
             <div class="post__user">
-                <img src="img/avatars/Ivan-Denisov.jpg" class="user__avatar" alt="avatar">
-                <span class="user__name">Ваня Денисов</span>
-                <img src="img/redact.png" class="user__redact" alt="Redaction">
+                <img src="img/avatars/ivan-denisov.jpg" class="user__avatar" alt="Avatar">
+                <h1 class="user__name">Ваня Денисов</h1>
+                <a href="/" class="user__redact-button">
+                    <img src="img/redact.png" class="user__redact" alt="Redaction">
+                </a>
             </div>
-            <p class="post__count">1/3</p>
-            <img src="img/content/Ivan-Denisov.jpg" class="user__content" alt="Photo">
+            <span class="post__count">1/3</span>
+            <img src="img/content/ivan-denisov.jpg" class="user__content" alt="Photo">
+            <!-- действия, поменять тег -->
             <span class="post__switch-left"><</span>
             <span class="post__switch-right">></span>
             <div class="post__containter-reactions">
@@ -31,13 +42,12 @@
             <span class="post__add">ещё</span>
             <span class="post__timelaps">2 часа назад</span>
         </div>
-
         <div class="post">
             <div class="post__user">
-                <img src="img/avatars/Liza-Demina.png" class="user__avatar" alt="avatar">
-                <span class="user__name">Лиза Дёмина</span>
+                <img src="img/avatars/liza-demina.png" class="user__avatar" alt="avatar">
+                <h1 class="user__name">Лиза Дёмина</h1>
             </div>
-            <img src="img/content/Elizaveta.jpg" class="user__photo" alt="Photo">
+            <img src="img/content/elizaveta.jpg" class="user__photo" alt="Photo">
         </div>
     </div>
     </body>

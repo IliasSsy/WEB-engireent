@@ -3,37 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="login_page.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@wikiline/webfont-golos-ui@latest/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+    <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap" rel="stylesheet">
     <title>SM | Sing-in</title>
 </head>
 <body>
-
     <div class="login">
-
         <div class="login__container">
             <h1 class="login__title">Вход</h1>
             <img src="img/login_page.png" class="login__hello-image" alt="Hello image"> 
         </div>    
-
         <div class="login__field">
             <p class="field__label-email">Электропочта</p>
             <input type="email" name="user_email" class="field__input">
-
             <p class="field__notice">
                 Введите электропочту в формате *****@***.**
             </p>
-
             <p class="field__label-password">Пароль</p>
             <input type="password" name="user_password" class="field__input">
-
-            <img class="field__eye" src="/img/login-page/eye.png" alt="Show password">
-
-            <a href="home.html" class="field__continue-button">
+            <a href="/" class="field__show-password">
+                <img class="field__eye" src="/img/login-page/eye.png" alt="Show password">
+            </a>
+            <a href="/" class="field__continue-button">
                 Продолжить
             </a>
         </div>
-
     </div>
-
 </body>
 </html>

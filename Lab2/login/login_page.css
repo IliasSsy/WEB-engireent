@@ -8,11 +8,6 @@ body {
     font-family: 'Golos Text', Arial, sans-serif;
 }
 
-/* BLOCK */
-.login {}
-
-/* ELEMENTS */
-
 .login__title {
     width: 385px;
     height: 180px;
@@ -38,7 +33,7 @@ body {
     color:#222222;
 }
 
-.field__label-email, .field__label-password {
+.field__label-email {
     width: 343px;
     height: 18px;
     font-weight: 400;
@@ -47,12 +42,23 @@ body {
     letter-spacing: -0.15px;
 }
 
+.field__label-password {
+    width: 343px;
+    height: 18px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+}
+
+
 .field__input {
     width: 343px;
     height: 44px;
     border-radius: 10px;
     justify-content: space-between;
     background-color: rgba(242, 243, 245, 1);
+    border: none;
 }
 
 .field__notice {
@@ -76,11 +82,9 @@ body {
     height: 48px;
     border-radius: 10px;
     background-color: #222222;
-
     color: white;
     font-weight: 500;
     font-size: 16px;
-
     text-align: center;     
     line-height: 48px;      
     text-decoration: none;  

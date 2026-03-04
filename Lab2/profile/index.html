@@ -2,34 +2,37 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="profile.css">
-    <ling rel="preconnect" href="https//cdn.jsdelivr.net"
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@wikiline/webfont-golos-ui@latest/css/all.css">
+    <link rel="stylesheet" href="profile.css">  
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+    <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap" rel="stylesheet">   
     <title>SM | Your Profile</title>
 </head>
 <body>
     <div class="profile">
-
-        <div class="profile__buttons">
-            <img class="button__icon" src="img/house.png" alt="news">
-            <img class="button__icon" src="img/person.png" alt="profile">
-            <img class="button__icon" src="img/plus.png" alt="Add new news">
+        <div class="profile__navigation">
+            <a href="/" class="navigation__home-button">
+                <img class="button__icon" src="img/house.png" alt="news">
+            </a>
+            <a href="/" class="navigation__profile-button">
+                <img class="button__icon" src="img/person.png" alt="profile">
+            </a>
+            <a href="/" class="navigation__add-button">
+                <img class="button__icon" src="img/plus.png" alt="Add new news">
+            </a>
         </div>
-
-        <img src="/img/news-page/avatars/Ivan-Denisov.jpg" class="profile__avatar" alt="avatar">
-
-        <span class="profile__username">Ваня Денисов</span>
-
+        <img src="img/avatars/ivan-denisov.jpg" class="profile__avatar" alt="avatar">
+        <h1 class="profile__username">Ваня Денисов</h1>
         <p class="profile__description">
             Привет! Я системный аналитик в АСМЕ!
             Тут моя жизнь только для самых классных!
         </p>
-
-        <img src="/img/profile-page/image.png" alt="picture" class="count__picture">
-        <span class="profile__count">43 поста</span>
-
+        <div class="count">
+            <img src="/img/profile-page/image.png" alt="picture" class="count__picture">
+            <span class="profile__count">43 поста</span>
+        </div>
         <div class="profile__media">
-            <img class="media__image" src="img/media/Ivan-Denisov.jpg" alt="picture">
+            <img class="media__image" src="img/media/ivan-denisov-media.jpg" alt="picture">
             <img class="media__image" src="img/media/building.png" alt="picture">
             <img class="media__image" src="img/media/eating.png" alt="picture">
             <img class="media__image" src="img/media/corporative.png" alt="picture">
@@ -39,7 +42,6 @@
             <img class="media__image" src="img/media/church.png" alt="picture">
             <img class="media__image" src="img/media/flowers.png" alt="picture">
         </div>
-
     </div>
 </body>
 </html>

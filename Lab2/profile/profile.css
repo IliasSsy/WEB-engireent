@@ -8,11 +8,14 @@ body {
     font-family: 'Golos Text', Arial, sans-serif;
 }
 
-
-.profile__buttons img {
+.profile__navigation img {
     display: block;
     width: 40px;
     height: 40px;
+}
+
+.profile__navigation {
+    width: 40px;
 }
 
 .profile__avatar {
@@ -41,12 +44,15 @@ body {
     letter-spacing: -0.15px;
 }
 
-.profile__count {
-    display: inline;
+.count {
+    border-radius: 6px;
+    background-color: rgba(242, 243, 245, 1);
     width: 101px;
     height: 30px;
-    border-radius: 6px;
-    background-color: rba(242, 243, 245, 1);
+}
+
+.profile__count {
+    display: inline;
 }
 
 .count__picture {
